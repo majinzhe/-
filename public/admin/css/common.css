@@ -1,0 +1,135 @@
+/* 所有的页面cs样式 */
+bd_color{
+  background-color:#222d32;
+}
+.mt_150 {
+  margin-top: 150px;
+}
+.mt_15 {
+  margin-top: 15px;
+}
+.mt_20 {
+  margin: 20px 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* index */
+html,
+body {
+  height: 100%;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.now {
+  border-left:3px solid #367fa9;
+  background-color:  #1d1f21;
+}
+.re_left {
+  width: 180px;
+  height: 100%;
+  background-color:#222d32;
+  position:fixed;
+  left: 0;
+  top: 0;
+  transition: all 1s;
+
+}
+.re_left.now {
+  left: -180px;
+}
+.re_left .hand a{
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background-color: #367fa9 ;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+.person {
+  height: 120px;
+  text-align: center;
+}
+.person .pic img{
+  width: 80px;
+  height:80px;
+  border-radius: 50%;
+}
+.person P {
+  height:50px;
+  font-size: 18px;
+  color:#fff;
+}
+
+
+.list li a{
+  display: block ;
+  height: 50px ;
+  line-height: 50px;
+  padding-left: 55px
+}
+.list .bran li a {
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  padding-left: 70px;
+  font-size: 16px;
+  /* display: none; */
+}
+.re_right {
+  width: 100%;
+  height: 100%;
+  padding-left: 180px;
+  /* position: absolute; */
+  transition:all 1s ;
+}
+.re_right.now {
+  padding-left: 0px;
+}
+.re_right .hat{
+  height: 50px;
+  line-height: 50px;
+  background-color: #3c8dbc;
+  font-size: 18px ;
+  padding: 0 20px;
+  margin-bottom: 20px;
+
+}
+.re_right .main {
+  padding: 0 20px;
+  margin-left: auto ;
+  margin-right: auto;
+
+}
+.breadcrumb a {
+  color: #337ab7;
+}
+/* 用户界面css */
+
+.table th ,
+.table td {
+   text-align: center ;
+   vertical-align: middle !important;
+}
+
+/* 二级分类页*/
+.main .content tbody img {
+  width: 30px;
+  height:30px;
+}
+/* #secondModal .dropdown button{
+  height:30px;
+  border-radius: 5px;
+  background-color: transparent;
+  border:1px solid #ccc;
+  margin-bottom: 15px;
+} */
